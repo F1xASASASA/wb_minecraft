@@ -1,0 +1,17 @@
+name: WoolBrawl
+version: '1.0.0'
+main: net.cubo.woolbrawl.WoolBrawlPlugin
+api-version: '1.21'
+description: Battlebox-style PvP
+authors: [cubo]
+
+commands:
+  wb:
+    description: WoolBrawl admin commands
+    usage: /wb <help|start|stop|add|setpoint|...>
+    permission: woolbrawl.admin
+
+permissions:
+  woolbrawl.admin:
+    description: Admin commands for WoolBrawl
+    default: op

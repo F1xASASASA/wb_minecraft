@@ -1,0 +1,54 @@
+world: world
+
+points:
+  lobby:
+    x: 0.5
+    y: 65.0
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
+  spawn-red:
+    x: -10.5
+    y: 65.0
+    z: 0.5
+    yaw: 90.0
+    pitch: 0.0
+  spawn-blue:
+    x: 10.5
+    y: 65.0
+    z: 0.5
+    yaw: -90.0
+    pitch: 0.0
+  spectator:
+    x: 0.5
+    y: 75.0
+    z: 0.5
+    yaw: 0.0
+    pitch: 45.0
+
+zone:
+  min: { x: -1, y: 64, z: -1 }
+  max: { x: 1, y: 64, z: 1 }
+
+arena:
+  min: { x: -20, y: 60, z: -20 }
+  max: { x: 20, y: 80, z: 20 }
+
+timings:
+  lobby: 19
+  unlock: 12
+  round: 62
+  ending: 12
+
+min-players: 1
+
+barriers:
+  red:
+    min: { x: 0, y: 0, z: 0 }
+    max: { x: 0, y: 0, z: 0 }
+  blue:
+    min: { x: 0, y: 0, z: 0 }
+    max: { x: 0, y: 0, z: 0 }
+
+theme: "battlebox:theme"
+theme-volume: 1.0
